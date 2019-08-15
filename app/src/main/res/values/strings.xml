@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Fiplus</string>
+
+    <string name="morning">Good Morning</string>
+    <string name="afternoon">Good Afternoon</string>
+    <string name="evening">Good Evening</string>
+    <string name="night">Good Night</string>
+
+    <string name="information"> Information</string>
+    <string name="location">Locate Us</string>
+    <string name="setting">Setting</string>
+    <string name="contact">Contact Us</string>
+    <string name="about">About</string>
+    <string name="qrcode">My QRCode</string>
+    <string name="news">News</string>
+    <string name="tips">Security Tips</string>
+    <string name="request">Request</string>
+    <string name="help">Help</string>
+    <string name="welcome">My Welcome Screen</string>
+    <string name="login">Log In</string>
+    <string name="register">New to Fiplus? Register Now !</string>
+    <string name="next">NEXT</string>
+    <string name="skip">BACK</string>
+    <string name="approve">Approve</string>
+
+    <string name="welcome_desc">Please log in to enjoy our full service and full feature!</string>
+    <string name="forgotpin">Forget PIN</string>
+    <string name="forgotpinverify">Answer the following to verify</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_log_in">Log In</string>
+    <string name="home">Home</string>
+    <string name="welcome_to">Welcome to:</string>
+
+    <string name="reports">Reports</string>
+
+    <string name="welcome_to_fiplus_khmer">Welcome To Fiplus Khmer</string>
+    <string name="enter_password">Enter Password</string>
+
+    <string name="title">Account Opening</string>
+    <string name="formtitle">Please enter information</string>
+    <string name="mobile">Mobile number</string>
+    <string name="LastName">LastName</string>
+    <string name="FirstName">FirstName</string>
+    <string name="Gender">Gender</string>
+    <string name="gender">Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="dob">Date of Birth</string>
+    <string name="DD">DD</string>
+    <string name="MM">MM</string>
+    <string name="YYYY">YYYY</string>
+    <string name="type">ID Type </string>
+    <string name="Number">ID Number</string>
+    <string name="check">I agreed with Term and Conditions</string>
+    <string name="OK">OK</string>
+    <string name="NO">No</string>
+    <string name="Yes">Yes</string>
+
+    <string name="front">Front</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="newpass">New Password</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="chooselegal">Select Legal</string>
+    <string name="nidentity">National Identity</string>
+    <string name="fbook">Family Book</string>
+    <string name="Passport">Passport</string>
+    <string name="monk">Monk Identification Card</string>
+
+
+    <string name="pay_me">Pay Me</string>
+    <string name="transfer">Transfer</string>
+    <string name="balance">Balance</string>
+    <string name="bills">Bills</string>
+    <string name="loan">Loan</string>
+    <string name="top_up">Top Up</string>
+    <string name="merchant">Merchants</string>
+    <string name="home_setting">Setting</string>
+    <string name="history">History</string>
+
+    <!--verify form-->
+    <string name="verify">Please verify transaction</string>
+    <string name="success">Success</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="codesms">Please enter OTAC received via SMS</string>
+    <string name="log_in_to_application">Log in to Application</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_enter_pin">Please Enter Pin</string>
+    <string name="please_enter_otp">Please Enter OTP</string>
+    <string name="exchange_rate">Exchange Rate</string>
+    <string name="for_more_detail">For more detail</string>
+    <string name="locate_us">Locate Us</string>
+
+
+    <!--transfer-->
+    <string name="selectacc">Select Account</string>
+    <string name="selectpurpose">Select Purpose</string>
+    <string name="transfer_title">Own Account Transfer</string>
+    <string name="from_account">From Account</string>
+    <string name="to_account">To Account</string>
+    <string name="amount">Amount</string>
+    <string name="transfer_purpose">Transfer Purpose</string>
+    <string name="purpose">Purpose</string>
+    <string name="date">Date</string>
+    <string name="imme">Immediately</string>
+
+    <string name="title_tran_list">Please enter information</string>
+    <string name="tran_ownacc">Own Account Transfer</string>
+    <string name="tran_to_mobile">Transfer To Mobile Number</string>
+    <string name="tran_to_bank">Transfer To Bank Account</string>
+    <string name="tran_fav">Modify Transfer Favourite</string>
+    <string name="tran_view">View Transfer History</string>
+    <string name="amou">Amount</string>
+    <string name="ty">Type</string>
+
+    <string name="f_account">From Account</string>
+    <string name="t_account">To Account</string>
+    <string name="t_amount">Amount</string>
+    <string name="enterinfor">Please enter information</string>
+
+
+    <string name="tansfer_phone">Transfer to Mobile number</string>
+    <string name="tansfer_phone_amount">Please enter payment amount</string>
+
+
+    <string name="transfer_method">Transfer Method</string>
+    <string name="transfer_bank">Transfer To Bank Account</string>
+    <string name="select_acc">Enter account or select from favorite(...)</string>
+    <string name="bank_acc">To Bank Account</string>
+
+    <!--transfer_purpose-->
+    <string name="spouse_support">Spouse support</string>
+    <string name="relative_support">Relative support</string>
+    <string name="school_fee">School fee</string>
+    <string name="rental_fee">Rental fee</string>
+    <string name="lending">Lending</string>
+    <string name="loan_repay">Load repay</string>
+    <string name="credit_card_bill">Credit card bill</string>
+    <string name="other_bill">Other bill</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+    <string name="fiplus_khmer">ហ្វាយផ្លាសខ្មែរ ខូអិលធីឌី</string>
+    <string name="fiplus_english">FIPLUS KHMER CO., LTD</string>
+    <string name="register_here">register here</string>
+    <string name="staff_name">Staff Name:</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

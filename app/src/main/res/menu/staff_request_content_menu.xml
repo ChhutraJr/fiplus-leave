@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Approve"
+        android:id="@+id/ct_approve"/>
+    <item
+        android:title="Reject"
+        android:id="@+id/ct_reject"/>
+    <item
+        android:title="Cancel"
+        android:id="@+id/ct_cancel"/>
+</menu>

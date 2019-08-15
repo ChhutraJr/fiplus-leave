@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/nav_staff_info"
+            android:icon="@drawable/user3"
+            android:title="Staff Information" />
+        <item
+            android:id="@+id/nav_staff_leave"
+            android:icon="@drawable/ic_record_voice"
+            android:title="Staff Leave" />
+        <item
+            android:id="@+id/nav_staff_request"
+            android:icon="@drawable/updateuse"
+            android:title="Staff Request" />
+        <item
+            android:id="@+id/nav_staff_approve"
+            android:icon="@drawable/usermale"
+            android:title="Staff Approve" />
+        <item android:id="@+id/nav_staff_bal"
+            android:icon="@drawable/balances"
+            android:title="Staff Balance" />
+        <item
+            android:id="@+id/nav_staff_reports"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Staff Reports" />
+    </group>
+
+    <group android:id="@+id/gp_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_open_in_new_black_24dp"
+            android:title="@string/menu_sign_out" />
+    </group>
+</menu>

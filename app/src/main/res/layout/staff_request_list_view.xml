@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:padding="5dp"
+    android:background="@drawable/staff_request_item">
+    <TextView
+        android:text="SOY HUNRIDOLLA"
+        android:id="@+id/lbl_staff_name"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:textColor="#6F6F6F"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_horiz_black_24dp"
+        android:id="@+id/more"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:text="1 Day(s)"
+        android:id="@+id/lbl_num_day_leave"
+        android:layout_below="@id/lbl_staff_name"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#6F6F6F" />
+    <TextView
+        android:text="From Jul 20, 2019 - Jul 20, 2019"
+        android:id="@+id/lbl_leave_period"
+        android:layout_below="@id/lbl_num_day_leave"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#6F6F6F" />
+    <TextView
+        android:text="08:00 AM - 05:00 PM"
+        android:id="@+id/lbl_leave_hour"
+        android:layout_below="@id/lbl_leave_period"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="#6F6F6F" />
+
+    <TextView
+        android:text="Jul 20, 2019 | 07:30 AM"
+        android:textSize="12dp"
+        android:paddingRight="5dp"
+        android:id="@+id/lbl_booking_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/lbl_leave_period"
+        android:textColor="#6F6F6F"
+        android:textStyle="bold"/>
+</RelativeLayout>
