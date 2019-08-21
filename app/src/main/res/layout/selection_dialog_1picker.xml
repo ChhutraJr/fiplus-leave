@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="#3575D3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/line" />
+
+        <Button
+            android:id="@+id/btdone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textColor="#3575D3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+    <com.shawnlin.numberpicker.NumberPicker
+        app:np_textSize="15dp"
+        android:id="@+id/spicker"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+    </com.shawnlin.numberpicker.NumberPicker>
+</LinearLayout>

@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
   private  TextView title;
   private Handler mHandler;
+  public Public_String str;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +50,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnClickRegister(View view) {
-        Intent intent = new Intent(this,Register.class);
+//        Intent intent = new Intent(this,Register.class);
+//        startActivity(intent);
+       // str.Fragment_Name="register";
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 
     }

@@ -98,7 +98,7 @@
                         android:id="@+id/local"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:src="@drawable/user3" />
                     <TextView
                         android:id="@+id/textView2"
@@ -128,7 +128,7 @@
                         android:id="@+id/exchange"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:src="@drawable/updateuse" />
                     <TextView
                         android:id="@+id/textView3"
@@ -166,8 +166,8 @@
                         android:id="@+id/setting"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
-                        android:src="@drawable/auth" />
+                        android:layout_weight="0.06"
+                        android:src="@drawable/bars"/>
 
                     <TextView
                         android:id="@+id/textView10"
@@ -209,9 +209,9 @@
                         android:id="@+id/rbalance"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:padding="10dp"
-                        android:src="@drawable/balances" />
+                        android:src="@drawable/balance" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -242,7 +242,7 @@
                         android:id="@+id/news"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:src="@drawable/usermale" />
 
                     <TextView
@@ -275,7 +275,7 @@
                         android:id="@+id/contactus"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:padding="7dp"
                         android:src="@drawable/contacts" />
                     <TextView
@@ -314,9 +314,9 @@
                         android:id="@+id/tips"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:padding="5dp"
-                        android:src="@drawable/code1" />
+                        android:src="@drawable/qrcode" />
 
                     <TextView
                         android:textSize="15dp"
@@ -347,7 +347,7 @@
                         android:id="@+id/faq"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:src="@drawable/about" />
 
                     <TextView
@@ -376,7 +376,7 @@
                     android:layout_height="match_parent">
                     <ImageView
                         android:padding="5dp"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:id="@+id/help"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
