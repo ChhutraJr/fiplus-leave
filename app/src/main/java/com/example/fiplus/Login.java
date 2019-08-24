@@ -9,6 +9,7 @@ public class Login extends AppCompatActivity {
 
     private EditText etUsername;
     private Button btnLogin;
+    private String pwd;
 
 
     @Override
