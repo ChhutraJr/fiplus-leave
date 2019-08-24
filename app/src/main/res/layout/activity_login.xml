@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
-    android:background="@drawable/background_image" >
+    android:background="#FFF" >
 
     <ImageView
         android:id="@+id/img_fiplus"
@@ -24,11 +24,8 @@
         android:layout_below="@+id/img_fiplus"
         android:layout_centerInParent="true"
         android:layout_marginTop="15dp"/>
-        <!--android:fontFamily="@font/moulregular"-->
-        android:text="@string/fiplus_khmer"
-        android:textColor="#FBB205"
-        android:textStyle="bold"
-        android:textSize="18dp"/>
+
+
     <TextView
         android:id="@+id/lbl_fiplus_english"
         android:layout_width="wrap_content"
@@ -50,50 +47,41 @@
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/user3" />
 
-    <TextView
-        android:id="@+id/lbl_username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/img_user"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="Username"
-        android:textColor="#EB9D12"
-        android:textSize="8pt"/>
+<!--    <TextView-->
+<!--        android:id="@+id/lbl_username"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/img_user"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Username"-->
+<!--        android:textColor="#EB9D12"-->
+<!--        android:textSize="8pt"/>-->
 
     <EditText
         android:id="@+id/txtUsername"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@+id/lbl_username"
+        android:layout_below="@+id/img_user"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:drawableStart="@drawable/ic_perm_identity_black_24dp"
         android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
         android:drawablePadding="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:hint="Enter User Name"
         android:textColorHint="@color/border_default"
         android:padding="5dp"
         android:background="@drawable/roundbutton"/>
-    <TextView
-        android:id="@+id/lbl_pwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtUsername"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:text="Password"
-        android:textColor="#EB9D12"
-        android:textSize="8pt"/>
+
 
     <EditText
         android:id="@+id/txtPwd"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@+id/lbl_pwd"
+        android:layout_below="@+id/txtUsername"
         android:layout_marginLeft="30dp"
         android:drawableStart="@drawable/ic_lock_outline_black_24dp"
         android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
@@ -101,21 +89,21 @@
         android:hint="Enter Password"
         android:textColorHint="@color/border_default"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:padding="5dp"
         android:background="@drawable/roundbutton"/>
 
     <Button
         android:id="@+id/btnSignIn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_below="@id/txtPwd"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#EB9D12"
@@ -123,14 +111,15 @@
         android:text="SIGN IN"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
-    <!--<TextView-->
-        <!--android:id="@+id/tbl_register"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@id/btnSignIn"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:layout_centerInParent="true"-->
-        <!--android:text="@string/register_here"-->
-        <!--android:textColor="#EB9D12"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tbl_register"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/btnSignIn"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="@string/register_here"-->
+<!--        android:textColor="#EB9D12"/>-->
 
 </RelativeLayout>

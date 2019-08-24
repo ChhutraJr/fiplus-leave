@@ -32,41 +32,7 @@
                 android:hint="@string/hint_name" />
         </android.support.design.widget.TextInputLayout>
 
-        <!--&lt;!&ndash; List View &ndash;&gt;-->
-        <!--<ListView-->
-            <!--android:id="@+id/list_view"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="wrap_content" />-->
 
-        <EditText
-            android:id="@+id/id_year"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/ic_date_range_black_24dp"
-            android:drawablePadding="5dp"
-            android:hint="@string/year"
-            android:inputType="number"
-            android:maxLength="14"
-            android:paddingLeft="0dp"
-            android:textColorHint="#999"
-            android:textSize="14sp" />
-
-        <EditText
-            android:nextFocusDown="@+id/id_type"
-            android:id="@+id/balance"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:drawableLeft="@drawable/payment_history"
-            android:drawablePadding="5dp"
-            android:focusable="false"
-            android:hint="@string/balance"
-            android:inputType="date"
-            android:onClick="OnClickDOB"
-            android:paddingLeft="0dp"
-            android:textColorHint="#999"
-            android:textSize="14sp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="65dp">

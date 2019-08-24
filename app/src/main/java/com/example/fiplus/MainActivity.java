@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 //        Intent intent = new Intent(this,Register.class);
 //        startActivity(intent);
        // str.Fragment_Name="register";
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this,Register.class);
         startActivity(intent);
 
     }

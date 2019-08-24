@@ -44,6 +44,7 @@
     <string name="welcome_to">Welcome to:</string>
 
     <string name="reports">Reports</string>
+    <string name="sing_up">SING UP</string>
 
     <string name="welcome_to_fiplus_khmer">Welcome To Fiplus Khmer</string>
     <string name="enter_password">Enter Password</string>
@@ -133,6 +134,8 @@
     <string name="t_account">To Account</string>
     <string name="t_amount">Amount</string>
     <string name="enterinfor">Please enter information</string>
+    <string name="password">Password</string>
+    <string name="err_password">Enter the password</string>
 
 
     <string name="tansfer_phone">Transfer to Mobile number</string>
